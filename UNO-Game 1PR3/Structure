@@ -1,0 +1,45 @@
+# Project Structure (UNO C++ Game)
+
+├── BotPlayer.h / BotPlayer.cpp
+│                                   Defines the automated opponent. Inherits from Player and overrides playTurn().
+│                                   Implements bot logic: prioritizes action/wild cards, then colour/number matches,
+│                                   and selects a colour intelligently when playing wild cards.
+│
+├── Player.h / Player.cpp
+│                                   Abstract base class for all players. Stores hand, provides add/remove card
+│                                   functions, and declares the pure virtual playTurn() method for polymorphism.
+│
+├── Card.h / Card.cpp
+│                                   Represents a single UNO card. Stores colour/value, provides overloaded
+│                                   constructors, ASCII printing, and isPlayable() logic.
+│
+├── Deck.h / Deck.cpp
+│                                   Manages the full 108‑card deck. Builds the deck, shuffles, draws cards,
+│                                   and tracks the top card index. May reshuffle discard pile if needed.
+│
+├── Game.h / Game.cpp
+│                                   Core game engine. Reads settings from file, initializes players dynamically,
+│                                   manages turn order, direction, discard pile, current colour, and applies
+│                                   special card effects (skip, reverse, draw, wild). Checks win conditions.
+│
+├── UNO.cpp
+│                                   Main entry point. Loads configuration (e.g., from deck.txt or settings file),
+│                                   creates the Game object, and starts the gameplay loop.
+│
+├── deck.txt
+│                                   File‑based input used to satisfy project requirements. Can store deck data,
+│                                   game settings, or other user‑defined configuration.
+│
+├── UNO.sln / UNO.vcxproj / UNO.vcxproj.filters
+│                                                   Visual Studio solution and project files for building and organizing the code.
+│
+└── .gitignore
+                                                    Standard ignore rules for build artifacts, binaries, and temporary files.
+
+# Summary
+
+- **Card / Deck** handle all card data and deck operations.
+- **Player / BotPlayer** implement human and AI behaviour using inheritance and polymorphism.
+- **Game** controls the full UNO match, turn flow, and special card logic.
+- **UNO.cpp** ties everything together and runs the program.
+- **deck.txt** provides required file‑based input for configurable game behaviour.
