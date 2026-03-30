@@ -31,4 +31,7 @@ Players can compete against human or bot opponents, draw and play cards, trigger
 - Polished final integration
 
 # Demo
-Below are snapshots of UNO's workflow and logic
+Below are snapshots of UNO's demonstration
+
+<img width="364" height="798" alt="Screenshot 2026-03-30 at 7 29 06 PM" src="https://github.com/user-attachments/assets/08819391-a0ab-4f3d-8152-e510fed136d3" />
+<img width="263" height="795" alt="Screenshot 2026-03-30 at 7 29 23 PM" src="https://github.com/user-attachments/assets/a62f9f5d-bf20-4143-a060-747613bc57e3" />
