@@ -25,8 +25,10 @@ Players can compete against human or bot opponents, draw and play cards, trigger
 - Mimics simple strategic behavior
 
 # Collaborative Development: AtharvaG, AdamC, JuanR
-- Built by a 3‑member team, with:
-- shared GitHub workflow
+- Shared GitHub workflow
 - Modular responsibilities
-- merged contributions
-- polished final integration
+- Merged contributions
+- Polished final integration
+
+# Demo
+Below are snapshots of UNO's workflow and logic
