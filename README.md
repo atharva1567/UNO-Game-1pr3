@@ -1,7 +1,7 @@
 # UNO Console Game: AtharvaG, AdamC, JuanR
 A collaborative C++ recreation of the classic UNO card game, built with clean terminal UI, modular game logic, and a polished user experience.
 
-UNO Console Edition is a fully interactive, terminal‑based implementation of the iconic UNO card game. Designed as a collaborative C++ project, it features a structured object‑oriented architecture, a custom UI system, and a smooth gameplay loop that mirrors the real card game experience.
+UNO Console Edition is a fully interactive, terminal‑based implementation of the iconic UNO card game. Designed as a collaborative C++ project for our 1PR3 2026 Winter class, it features a structured object‑oriented architecture, a custom UI system, and a smooth gameplay loop that mirrors the real card game experience.
 
 Players can compete against human or bot opponents, draw and play cards, trigger special actions (+2, Reverse, Skip, Wild, Wild +4), and race to empty their hand. The project emphasizes clean code organization, readable UI output, and a visually appealing menu system with colored borders and dynamic formatting.
 
